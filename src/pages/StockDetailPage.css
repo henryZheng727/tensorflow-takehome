@@ -1,0 +1,63 @@
+.detail-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.detail-back {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.detail-back:hover {
+  text-decoration: underline;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.detail-header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.detail-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.detail-section {
+  margin-top: 32px;
+}
+
+.detail-section h2 {
+  margin-bottom: 16px;
+}
+
+.detail-error {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.detail-error p {
+  color: var(--negative);
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.detail-error button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 14px;
+  cursor: pointer;
+}
